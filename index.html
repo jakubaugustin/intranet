@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Intranet</title>
+		<link rel="stylesheet" href="./css/style.css">
+		<script src="./js/breaking_news.js"></script>
+		<script src="./js/marquee.js"></script>
+		<script src="./js/jquery-1.11.2.min.js"></script>
+	</head>
+	<body onload="renderMessages();">
+		<div id="top">
+			<div id="header">
+				<h1>INTRANET</h1>
+			</div>
+			<div id="top_menu">
+				<ul>
+					<li><a href="#">Tel. seznam</a></li>
+					<li><a href="#">Sezname E-mail adres</a></li>
+					<li><a href="#">Služby lékářů</a></li>
+					<li><a href="#">Nabídka majetku</a></li>
+					<li><a href="#">Laboratorní příručka</a></li>
+					<li><a href="#">Rezervace Kulturního domu</a></li>
+					<li><a href="#">Jídelníček</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="mid">
+			<div id="left_menu">
+				<ul>
+					<li><a href="#">Spalovna mrtvol - aktuální kapacita</a></li>
+					<li><a href="#">Elektrošoky - 10 typů</a></li>
+					<li><a href="#">Lobotomie pro začátečníky - manuál v PDF</a></li>
+					<li><a href="#">Seznam pacientů</a></li>
+				</ul>
+			</div>
+			<div id="page">
+				<div id="header_container">
+					<h2>COVID-19</h2>
+				</div>
+				<div id="content">
+					<p><b><u>5. 11. 2020</u></b> - Info: Vaky na zesnulé s Covid-19 nákazou je možné si vyzvednout na st. 17D. Adamčíková<p>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="container">
+			  <div class="marquee-sibling">Urgentní příjem: </div>
+			  <div class="marquee">
+				<ul id="news" class="marquee-content-items">
+				</ul>
+			  </div>
+			</div>
+		</div>
+	</body>
+</html>
